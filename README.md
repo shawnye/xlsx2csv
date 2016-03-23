@@ -43,7 +43,7 @@ first, you have to comment three lines in `C:\Users\Administrator\.nimble\pkgs\z
 </code>
 
 then you have to change  `nim`  source a little:
-add ',' in `SymChars{}`  in  (`%NIM_HOME%\lib\pure\parsecfg.nim`)(https://github.com/nim-lang/Nim/blob/master/lib/pure/parsecfg.nim)
+add ',' in `SymChars{}`  in  [`%NIM_HOME%\lib\pure\parsecfg.nim`](https://github.com/nim-lang/Nim/blob/master/lib/pure/parsecfg.nim)
 
 `nim c --cpu:i386  -d:profile xlsx2csv.nim`
 `-d:profile` is optional
