@@ -36,11 +36,11 @@ Go to develop dir, run `nimble build` to download dependancy first.
 
 You have to use `gcc` build on windows instead of `vcc` build. Before built, something has to be changed:
 first, you have to comment three lines in `C:\Users\Administrator\.nimble\pkgs\zip-0.1.0\zip\private\libzip_all.c`
-<code>
+<pre>
 //#define HAVE_FSEEKO 1 --line 276 
 //#define HAVE_FTELLO 1 --line 279
 //#define HAVE_MKSTEMP 1 --line 291
-</code>
+</pre>
 
 then you have to change  `nim`  source a little:
 add ',' in `SymChars{}`  in  [`%NIM_HOME%\lib\pure\parsecfg.nim`](https://github.com/nim-lang/Nim/blob/master/lib/pure/parsecfg.nim)
