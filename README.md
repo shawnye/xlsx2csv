@@ -3,12 +3,12 @@ Small memory footprint xlsx2csv with useful options, built with  [nimlang](http:
 
 `Small memory footprint` means using `stream` instead of `dom` when parsing xml. In nonofficial test, using less than 8MB to transfer 80000*64 cells into csv. showed by nim procedure `getTotalMem()`.
 
-***usage***: 
+**usage**: 
  `xlsx2csv [src xlsx] [dest csv]`
 
 If `src xlsx` is empty, choose from file dialog
 
-***options*** 
+**options** 
 You can change config in xlsx2csv.ini in the same dir.
 
 ***example config***
