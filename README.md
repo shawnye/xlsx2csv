@@ -55,4 +55,8 @@ Build on other platform has not been tested, but 32bit is recommended. On linux,
 
 Of couse, there are still something to impove, as I just studied [nimlang](http://nim-lang.org/) for a month.
 
+Thanks for [nimlang](http://nim-lang.org/) , [zlib](http://www.zlib.net/) and all open source authors, I've learnt a lot from YOU!
+
 Licence : MIT
+zlib Licence: Copyright (C) 1995-2013 Jean-loup Gailly and Mark Adler ,see http://www.zlib.net/
+ 
