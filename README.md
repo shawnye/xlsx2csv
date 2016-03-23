@@ -11,16 +11,21 @@ If `src xlsx` is empty, choose from dialog
 You can change config in xlsx2csv.ini in the same dir.
 
 ***example config***
-write config
+
 #skipFirstRows = 1
-not include empty rows, as describe below
 #skipLastRows = 1
-skip first columns
+not include empty rows, as describe below
+
 #skipCols = 0
-when found successive Empty Rows, stopped and rollback to row before empty
+skip first columns
+ 
 #successiveEmptyRows = 3
+when found successive Empty Rows, stopped and rollback to row before empty
+
+#dateTypeCols = N,O,P
 denote which col is date type, as internal value is number ,it will convert to date( no time part ,may add config to support it) 
 note dates before 1970 cannot be supported now
-#dateTypeCols = N,O,P
 
 Of couse, there are still something to impove, as I just studied [nimlang](http://nim-lang.org/) for a month.
+
+Licence : MIT
